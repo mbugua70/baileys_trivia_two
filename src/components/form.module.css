@@ -1421,7 +1421,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: 2rem;
+  padding: 2rem 2rem 4rem 2rem;
 }
 
 /* Floating Particles */
@@ -1959,6 +1959,17 @@
 
 /* Tablets (Landscape) - 768px to 1024px */
 @media (max-width: 1024px) and (min-width: 769px) {
+  .baileys_logo {
+    margin-bottom: 1.8rem;
+  }
+
+  .baileys_text {
+    font-size: 4.5rem;
+    letter-spacing: 0.4rem;
+    padding: 0.8rem 2.5rem;
+    border-width: 3px;
+  }
+
   .text_highlight {
     font-size: 5.5rem;
     padding: 12px 35px;
@@ -2006,6 +2017,21 @@
 
 /* Tablets (Portrait) - 600px to 768px */
 @media (max-width: 768px) and (min-width: 601px) {
+  .welcome_content {
+    padding: 2rem 2rem 6rem 2rem;
+  }
+
+  .baileys_logo {
+    margin-bottom: 1.5rem;
+  }
+
+  .baileys_text {
+    font-size: 3.5rem;
+    letter-spacing: 0.3rem;
+    padding: 0.6rem 2rem;
+    border-width: 2.5px;
+  }
+
   .text_highlight {
     font-size: 4rem;
     padding: 10px 30px;
@@ -2019,6 +2045,8 @@
   .welcome_text p {
     font-size: 1.5rem;
     margin-top: 1.5rem;
+    padding: 0 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .brands_showcase {
@@ -2064,6 +2092,21 @@
 
 /* Phones (Landscape) - 480px to 600px */
 @media (max-width: 600px) and (min-width: 481px) {
+  .welcome_content {
+    padding: 1.5rem 1.5rem 6rem 1.5rem;
+  }
+
+  .baileys_logo {
+    margin-bottom: 1.2rem;
+  }
+
+  .baileys_text {
+    font-size: 2.8rem;
+    letter-spacing: 0.25rem;
+    padding: 0.5rem 1.5rem;
+    border-width: 2px;
+  }
+
   .text_highlight {
     font-size: 3rem;
     padding: 8px 24px;
@@ -2076,6 +2119,8 @@
   .welcome_text p {
     font-size: 1.2rem;
     margin-top: 1rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
   }
 
   .brands_showcase {
@@ -2118,8 +2163,23 @@
 
 /* Phones (Portrait) - 360px to 480px */
 @media (max-width: 480px) and (min-width: 361px) {
+  .welcome_content {
+    padding: 1.5rem 1rem 7rem 1rem;
+  }
+
+  .baileys_logo {
+    margin-bottom: 1rem;
+  }
+
+  .baileys_text {
+    font-size: 2.2rem;
+    letter-spacing: 0.2rem;
+    padding: 0.4rem 1.2rem;
+    border-width: 2px;
+  }
+
   .welcome_text {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .text_highlight {
@@ -2135,6 +2195,7 @@
   .welcome_text p {
     font-size: 1rem;
     padding: 0 1rem;
+    margin-bottom: 2.5rem;
   }
 
   .brands_showcase {
@@ -2181,6 +2242,21 @@
 
 /* Small Phones - 321px to 360px */
 @media (max-width: 360px) and (min-width: 321px) {
+  .welcome_content {
+    padding: 1rem 0.8rem 7rem 0.8rem;
+  }
+
+  .baileys_logo {
+    margin-bottom: 0.8rem;
+  }
+
+  .baileys_text {
+    font-size: 1.8rem;
+    letter-spacing: 0.15rem;
+    padding: 0.3rem 1rem;
+    border-width: 1.5px;
+  }
+
   .text_highlight {
     font-size: 2rem;
     padding: 5px 16px;
@@ -2193,6 +2269,7 @@
   .welcome_text p {
     font-size: 0.9rem;
     padding: 0 0.5rem;
+    margin-bottom: 2.5rem;
   }
 
   .brands_showcase {
@@ -2229,6 +2306,21 @@
 
 /* Extra Small Phones - 320px and below */
 @media (max-width: 320px) {
+  .welcome_content {
+    padding: 1rem 0.5rem 7rem 0.5rem;
+  }
+
+  .baileys_logo {
+    margin-bottom: 0.6rem;
+  }
+
+  .baileys_text {
+    font-size: 1.5rem;
+    letter-spacing: 0.12rem;
+    padding: 0.25rem 0.8rem;
+    border-width: 1.5px;
+  }
+
   .text_highlight {
     font-size: 1.8rem;
     padding: 4px 14px;
@@ -2240,6 +2332,8 @@
 
   .welcome_text p {
     font-size: 0.85rem;
+    padding: 0 0.3rem;
+    margin-bottom: 2.5rem;
   }
 
   .brands_showcase {
@@ -2272,6 +2366,17 @@
 
 /* Medium Desktop Screens (1366x768) */
 @media (min-width: 1366px) and (max-width: 1919px) and (max-height: 900px) {
+  .baileys_logo {
+    margin-bottom: 2rem;
+  }
+
+  .baileys_text {
+    font-size: 5rem;
+    letter-spacing: 0.45rem;
+    padding: 0.9rem 3rem;
+    border-width: 3.5px;
+  }
+
   .text_highlight {
     font-size: 3.5rem;
     padding: 12px 35px;
@@ -2319,6 +2424,17 @@
 
 /* Large Desktop (1920x1080+) */
 @media (min-width: 1920px) and (max-height: 1080px) {
+  .baileys_logo {
+    margin-bottom: 2.5rem;
+  }
+
+  .baileys_text {
+    font-size: 6.5rem;
+    letter-spacing: 0.55rem;
+    padding: 1.2rem 3.5rem;
+    border-width: 4px;
+  }
+
   .text_highlight {
     font-size: 4.5rem;
     padding: 14px 40px;
@@ -2373,6 +2489,17 @@
 
 /* Very Large Desktop (1920+, >1080 height) */
 @media (min-width: 1920px) and (min-height: 1081px) {
+  .baileys_logo {
+    margin-bottom: 3rem;
+  }
+
+  .baileys_text {
+    font-size: 7rem;
+    letter-spacing: 0.6rem;
+    padding: 1.4rem 4rem;
+    border-width: 5px;
+  }
+
   .text_highlight {
     font-size: 5rem;
     padding: 16px 45px;
