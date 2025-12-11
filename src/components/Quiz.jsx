@@ -1,6 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 import { useState, useCallback, Suspense } from "react";
 import "animate.css";
+
 import Question from "./question";
 import { redirect } from "react-router-dom";
 import Summary from "./Summary";
