@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: url("/image/interactive-screen.png");
+  background-image: url("/image/interactive-screen.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -177,7 +177,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url("/image/interactive-screen.png");
+    background-image: url("/image/interactive-screen.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -329,7 +329,7 @@
 /* Tablets (Portrait) - 600px to 768px */
 @media (max-width: 768px) and (min-width: 601px) {
   .login_container {
-    background-image: url("/image/768.png");
+    background-image: url("/image/768.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -386,7 +386,7 @@
 /* Phones (Landscape) - 480px to 600px */
 @media (max-width: 600px) and (min-width: 481px) {
   .login_container {
-    background-image: url("/image/360.png");
+    background-image: url("/image/320.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -447,7 +447,7 @@
 /* Phones (Portrait) - 360px to 480px */
 @media (max-width: 480px) and (min-width: 361px) {
   .login_container {
-    background-image: url("/image/360.png");
+    background-image: url("/image/320.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -513,7 +513,7 @@
 /* Small Phones - 321px to 360px */
 @media (max-width: 360px) and (min-width: 321px) {
   .login_container {
-    background-image: url("/image/320.png");
+    background-image: url("/image/320.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -561,7 +561,7 @@
 /* Extra Small Phones - 320px and below */
 @media (max-width: 320px) {
   .login_container {
-    background-image: url("/image/320.png");
+    background-image: url("/image/320.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1829,6 +1829,17 @@
 
 /* Large Interactive Screens (1080x1920) */
 @media ((min-width: 1080px) and (min-height: 1920px)) {
+  .baileys_logo {
+    margin-bottom: 3rem;
+  }
+
+  .baileys_text {
+    font-size: 9rem;
+    letter-spacing: 0.7rem;
+    padding: 1.5rem 4.5rem;
+    border-width: 6px;
+  }
+
   .text_highlight {
     font-size: 9rem;
     padding: 20px 60px;
@@ -1866,6 +1877,17 @@
 
 /* Ultra High Resolution (2160x3840) */
 @media ((min-width: 2160px) and (min-height: 3840px)) {
+  .baileys_logo {
+    margin-bottom: 5rem;
+  }
+
+  .baileys_text {
+    font-size: 18rem;
+    letter-spacing: 1.2rem;
+    padding: 3rem 9rem;
+    border-width: 12px;
+  }
+
   .text_highlight {
     font-size: 18rem;
     padding: 40px 120px;
